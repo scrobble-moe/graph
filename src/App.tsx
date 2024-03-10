@@ -1,9 +1,12 @@
 import type { Component } from 'solid-js';
-import { Graph } from './Graph.jsx';
+import { GraphDisplay } from './GraphDisplay.jsx';
 
 const App: Component = () => {
   return (
-    <Graph />
+    <div>
+      <GraphDisplay />
+      <p>Test</p>
+    </div>
   );
 };
 
